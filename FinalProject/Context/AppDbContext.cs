@@ -64,6 +64,7 @@ namespace FinalProject.Context
 				c.HasKey(x => x.Id);
 				c.Property(x => x.Name).IsRequired();
 				c.Property(x => x.Limit).HasPrecision(18, 2).HasColumnType("NUMERIC");
+				c.Property(x => x.Type).IsRequired();
 			});
 
 			modelBuilder.Entity<Transaction>().ToTable("Transactions");
