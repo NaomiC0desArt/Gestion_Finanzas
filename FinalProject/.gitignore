@@ -1,0 +1,17 @@
+﻿
+.vs/
+*.vsidx
+*.vscode/
+
+
+bin/
+obj/
+
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+*.log

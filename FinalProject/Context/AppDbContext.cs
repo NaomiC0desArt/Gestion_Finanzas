@@ -14,9 +14,12 @@ namespace FinalProject.Context
         }
 
         public DbSet<User> Users { get; set; }
+		public DbSet<Category> Categories { get; set; }
+		public DbSet<Transaction> Transactions { get; set; }
 
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
@@ -54,6 +57,28 @@ namespace FinalProject.Context
             {
                 x.HasKey(x => x.Id);
             });
-        }
-    }
+
+			modelBuilder.Entity<Category>().ToTable("Categories");
+			modelBuilder.Entity<Category>(c =>
+			{
+				c.HasKey(x => x.Id);
+				c.Property(x => x.Name).IsRequired();
+				c.Property(x => x.Limit).HasPrecision(18, 2).HasColumnType("NUMERIC");
+			});
+
+			modelBuilder.Entity<Transaction>().ToTable("Transactions");
+			modelBuilder.Entity<Transaction>(t =>
+			{
+				t.HasKey(x => x.Id);
+				t.Property(x => x.Amount).HasPrecision(18, 2).HasColumnType("NUMERIC");
+				t.Property(x => x.Date).IsRequired();
+				t.Property(x => x.Type).IsRequired();
+				t.HasOne(x => x.Category)
+				 .WithMany(c => c.Transactions)
+				 .HasForeignKey(x => x.CategoryId)
+				 .OnDelete(DeleteBehavior.SetNull);
+			});
+
+		}
+	}
 }

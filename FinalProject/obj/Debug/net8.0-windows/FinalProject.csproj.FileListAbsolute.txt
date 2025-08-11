@@ -268,3 +268,4 @@ C:\Users\user\Downloads\FinalProject\FinalProject\obj\Debug\net8.0-windows\refin
 C:\Users\user\Downloads\FinalProject\FinalProject\obj\Debug\net8.0-windows\FinalProject.pdb
 C:\Users\user\Downloads\FinalProject\FinalProject\obj\Debug\net8.0-windows\FinalProject.genruntimeconfig.cache
 C:\Users\user\Downloads\FinalProject\FinalProject\obj\Debug\net8.0-windows\ref\FinalProject.dll
+C:\Users\user\Downloads\FinalProject\FinalProject\obj\Debug\net8.0-windows\FinalProject.sourcelink.json

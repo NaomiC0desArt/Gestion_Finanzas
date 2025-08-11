@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\finalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\finalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\migrations\\20250811155218_agregartablacategoriatransacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\migrations\\20250811155218_agregartablacategoriatransacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|c:\\users\\user\\downloads\\finalproject\\finalproject\\finalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D30B9317-132B-4E36-AE2A-FC8F9FF594FA}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\finalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +39,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinalProject",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\.gitignore",
+              "RelativeDocumentMoniker": "FinalProject\\.gitignore",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\.gitignore",
+              "RelativeToolTip": "FinalProject\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-11T16:01:03.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250811155218_AgregarTablaCategoriaTransacciones.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Migrations\\20250811155218_AgregarTablaCategoriaTransacciones.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Migrations\\20250811155218_AgregarTablaCategoriaTransacciones.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Migrations\\20250811155218_AgregarTablaCategoriaTransacciones.cs",
+              "RelativeToolTip": "FinalProject\\Migrations\\20250811155218_AgregarTablaCategoriaTransacciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:52:18.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "FinalProject\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwE4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:46:07.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Models\\Category.cs",
+              "RelativeToolTip": "FinalProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:41:02.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinalProject.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\FinalProject.csproj",
               "RelativeDocumentMoniker": "FinalProject\\FinalProject.csproj",
               "ToolTip": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\FinalProject.csproj",
@@ -35,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FinalProject\\FinalProject\\Models\\User.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\User.cs",
